@@ -1,0 +1,3 @@
+App Access token can be genrated using the App Id and App Secret from the registered app on Facebook.
+
+User Token are of two types short lived(that can be used for few hours) and long lived that is valid for 60  days or so.
