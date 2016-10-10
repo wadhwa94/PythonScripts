@@ -1,0 +1,10 @@
+http://stackoverflow.com/questions/36854623/requests-content-not-matching-with-chrome-inspect-element
+
+
+Requests.content not matching with Chrome inspect element
+
+
+That's because it's loaded using Ajax/javascript. Requests library doesn't handle that, you'll need to use something that can execute these scripts and get the dom. There are various options, I'll list a couple to get you started.
+
+Selenium
+ghost.py
