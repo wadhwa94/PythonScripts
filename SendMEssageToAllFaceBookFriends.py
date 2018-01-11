@@ -18,7 +18,7 @@ chrome_options.add_experimental_option("prefs",prefs)
 #driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
-driver = webdriver.Chrome(r"C:\Users\jatin\Downloads\chromedriver_win32\chromedriver.exe",chrome_options=chrome_options)
+driver = webdriver.Chrome(r"C:\Users\<User-name>\Downloads\chromedriver_win32\chromedriver.exe",chrome_options=chrome_options)
 # or you can use Chrome(executable_path="/usr/bin/chromedriver")
 driver.get("http://www.facebook.org")
 assert "Facebook" in driver.title
