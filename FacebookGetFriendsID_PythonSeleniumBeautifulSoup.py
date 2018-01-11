@@ -5,8 +5,8 @@ from selenium.webdriver.common.keys import Keys
 from lxml import html
 from bs4 import BeautifulSoup
 
-usr = "wadhwajatin94@gmail.com"
-pwd = "9255731200"
+usr = "_______________"
+pwd = "__________"
 
 #driver = webdriver.Firefox()
 driver = webdriver.Chrome(r"C:\Users\jatin\Downloads\chromedriver_win32\chromedriver.exe")
