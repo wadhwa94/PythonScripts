@@ -1,0 +1,3 @@
+UnicodeEncodeError: 'charmap' codec can't encode characters
+
+Change print (text) to print (text.encode("utf-8"))
